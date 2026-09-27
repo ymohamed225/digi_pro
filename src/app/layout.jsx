@@ -16,6 +16,10 @@ export const metadata = {
   title: "DIGIPRO — Digitalisation Intelligente des PME par la Data & l'IA",
   description: "Plateforme SaaS ivoirienne éditrice de solutions spécialisées (DigiCRM, DigiSales, DigiStock, DigiBI, DigiAI, DigiBTP, DigiCouture) pour l'accélération des PME.",
   keywords: ["SaaS PME", "Côte d'Ivoire", "Abidjan", "Data", "IA", "DigiCRM", "DigiSales", "DigiBTP", "DigiCouture"],
+  icons: {
+    icon: '/favicon.jpg',
+    apple: '/favicon.jpg',
+  },
   openGraph: {
     title: "DIGIPRO — Digitalisation Intelligente des PME par la Data & l'IA",
     description: "La plateforme SaaS ivoirienne dédiée à l'accélération des PME africaines.",

@@ -14,8 +14,8 @@ export const Footer = () => {
           {/* Logo & Pitch */}
           <div className="md:col-span-5 space-y-4">
             <a href="#accueil" className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-brand-blue flex items-center justify-center text-white font-bold">
-                <Layers className="w-6 h-6" />
+              <div className="w-10 h-10 rounded-xl overflow-hidden shadow-md flex items-center justify-center bg-brand-blue">
+                <img src="/favicon.jpg" alt="DigiPro Logo" className="w-full h-full object-cover" />
               </div>
               <span className="font-display font-extrabold text-2xl text-white">DIGI<span className="text-brand-brightBlue">PRO</span></span>
             </a>

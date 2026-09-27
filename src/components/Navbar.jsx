@@ -21,9 +21,9 @@ export const Navbar = () => {
             <motion.div 
               whileHover={{ scale: 1.08, rotate: 3 }}
               whileTap={{ scale: 0.95 }}
-              className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white shadow-lg shadow-blue-500/30"
+              className="w-10 h-10 rounded-xl overflow-hidden shadow-lg shadow-blue-500/30 flex items-center justify-center bg-blue-600"
             >
-              <Layers className="w-6 h-6" />
+              <img src="/favicon.jpg" alt="DigiPro Logo" className="w-full h-full object-cover" />
             </motion.div>
             <div className="flex flex-col">
               <span className="font-display font-extrabold text-2xl tracking-tight text-slate-900">
